@@ -188,18 +188,18 @@ Abre un Pull Request
 Este proyecto está bajo la Licencia MIT. Ver el archivo LICENSE para más detalles.
 
 👨‍💻 Autor
-Melvin Omar Navas Santos
+Melvin Navas Santos
 
 Estudiante de Programación Python
 
 Institución: CEIP COLON
 
-GitHub: @melvinnavas
+GitHub: @rlnids
 
 📞 Contacto
 ¿Preguntas o sugerencias?
 
-📧 Email: melvin@email.com
+📧 Email: mons97@outlook.es
 
 🐛 Reportar issues: GitHub Issues
 
