@@ -1,0 +1,90 @@
+Título del programa: Gestión de contactos
+
+Versión de la base de datos: SQLITE : 3.50.4 
+
+text
+----------------------------------------------
+            DOCUMENTACIÓN DEL PROGRAMA
+----------------------------------------------
+
+📌 **NOMBRE DEL PROGRAMA:** Gestor de Contactos
+📌 **AUTOR:** MELVIN OMAR NAVAS SANTOS
+📌 **FECHA:** 04/02/2026
+----------------------------------------------
+         INFORMACIÓN TÉCNICA
+----------------------------------------------
+
+🎯 **¿QUÉ HACE MI PROGRAMA?**
+
+Mi programa gestiona una lista de contactos almacenándolos en una 
+base de datos. Permite:
+1. Agregar nuevos contactos de forma segura
+2. Almacenar nombre, teléfono y email de cada persona
+3. Insertar datos de ejemplo para pruebas
+
+🛠️ **TECNOLOGÍAS UTILIZADAS:**
+
+• **Lenguaje:** Python 3
+• **Base de datos:** SQLite3
+• **Interfaz:** Terminal/Consola
+• **Seguridad:** Consultas parametrizadas (?)
+
+💾 **VERSIÓN DE LA BASE DE DATOS:**
+
+Nombre del archivo: contactos.db
+Versión: 1.0
+Fecha de creación: [Fecha de hoy]
+
+Estructura de la tabla "contactos":
+-----------------------------------
+| COLUMNA  | TIPO   | DESCRIPCIÓN           |
+|----------|--------|------------------------|
+| nombre   | TEXT   | Nombre completo       |
+| telefono | TEXT   | Número de teléfono    |
+| email    | TEXT   | Correo electrónico    |
+
+----------------------------------------------
+         INSTRUCCIONES DE USO
+----------------------------------------------
+
+1. Ejecutar el programa principal:
+   python main.py
+
+2. El programa creará automáticamente:
+   - La base de datos "contactos.db"
+   - La tabla para almacenar contactos
+   - 3 contactos de ejemplo
+
+3. Para ver los contactos guardados:
+
+   - O ejecutar consultas SQL manualmente
+
+----------------------------------------------
+         ASPECTOS DE SEGURIDAD
+----------------------------------------------
+
+✅ **CARACTERÍSTICAS SEGURAS IMPLEMENTADAS:**
+• Uso de consultas parametrizadas con (?)
+• Prevención de inyección SQL
+• Validación básica de datos
+
+⚠️ **REQUISITOS DEL SISTEMA:**
+• Python 3.6 o superior
+• Módulo sqlite3 (viene con Python)
+• 10 MB de espacio libre
+
+----------------------------------------------
+              CONTACTO
+----------------------------------------------
+Estudiante: MELVIN NAVAS 
+Curso: Programación Python
+Institución: CEIP COLON
+Esta base de datos tiene tecnologia de primera categoria, a base de sqlite3 y python, en ellas ejecutamos sentenciass de Sql 
+para crear tablas y añadir valores a las mismas.
+Utilizamos un bucle infinito para el menu de de opciones, una serie de inputs para poder interactuar con el usuario y que tenga las mayores 
+facilidades para el uso de nuestra aplicación, 
+Trabajamos de manera modular, invoncado a nuestras funciones en cualquiera de nuestros archivos
+Añadimos una opcion de exportacion a formato csv, que nos crea un archivo en donde va almacenando los datos de contacto
+Añadimos una opcion de actualización y borrado de contacto, con opcion a cancelar la operacion en el caso del borrado. todo adaptado al bucle infinito
+
+
